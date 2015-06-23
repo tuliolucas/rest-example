@@ -16,7 +16,7 @@ This really simple example just explain how REST API works and we can contextual
     https://api.github.com/users/tuliolucas
     https://api.github.com/users/tuliolucas/repos
     
-2 - Updating some user informations (this application requires authentication and I choose the "Auth2 token" and so my property token will be sent as a parameter. My profile token is "94a7a447f7f8f4aa8c529ecc35d89125513c0154") and we are changing just my GitHub name.
+2 - Updating some user informations (this case GitHub API requires authentication and I choose the "Auth2 token" and so my property token will be sent as a parameter. My profile token is "94a7a447f7f8f4aa8c529ecc35d89125513c0154") and we are changing just my GitHub name.
 
     {
       "name":"Túlio Cruz"
