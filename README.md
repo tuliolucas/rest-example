@@ -2,7 +2,7 @@
 
 Simple REST example that to show how Github API works and all documentation about can be find on the https://developer.github.com/v3
 
-This really simple example just explain how this api works and we can contextualize some ROA (Resource Oriented Architecture) concepts.
+This really simple example just explain how REST API works and we can contextualize some ROA (Resource Oriented Architecture) concepts.
 
 1 - Show a user and user projects resource (GET)
     
