@@ -11,7 +11,7 @@ This really simple example just explain how REST API works and we can contextual
         Safety 
         Idempotence
 
-1 - Show a user and user projects resource (using the GET HTTP method)
+1 - Showing a user and user projects (using the GET HTTP method). We can see that they are just "resources"
     
     https://api.github.com/users/tuliolucas
     https://api.github.com/users/tuliolucas/repos
