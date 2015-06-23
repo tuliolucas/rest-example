@@ -27,8 +27,4 @@ This really simple example just explain how REST API works and we can contextual
     Safety 
     Idempotence
     
-    
-    https://developer.github.com/v3/auth/#basic-authentication
-    https://developer.github.com/v3/users/
-    
 * For this presentation we are using Advanced REST client, the web developers helper program to create and test custom HTTP requests.
