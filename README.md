@@ -62,14 +62,14 @@ Este tipo de solicitação de alteração de um recurso ou exibição de informa
     
     Conteúdo:
     
-    ```
+
     {
       "name":"Túlio Cruz"
     }
     
-    ```
-    
+
 ------------------
 
 Para os testes foram utilizados programas que criam e customizando testes requisições HTTP.
+
 Exemplo: Paw e Advanced REST client
