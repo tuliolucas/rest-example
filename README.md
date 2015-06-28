@@ -4,17 +4,18 @@ Exemplo de funcionamento de como se consome um serviço REST, utilizando a API p
 
 Desta forma conseguiremos identificar os cinco princípios fundamentais são os seguintes:
 
-        Dê a todas as coisas um Identificador (addressability)
-        Vincule as coisas (connectedness)
-        Utilize métodos padronizados (uniform interface)
-        Recursos com múltiplas representações
-        Comunique sem estado (statelessness)
+        - Dê a todas as coisas um Identificador (addressability)
+        - Vincule as coisas (connectedness)
+        - Utilize métodos padronizados (uniform interface)
+        - Recursos com múltiplas representações (multiple representations)
+        - Comunique sem estado (statelessness)
 
 1) Para contextualizar, iremos fazer a requisição do recurso tuliolucas, que nada mais é do que meu usuário do Github e todas as informações a respeito.
 
-Já pela URL de acesso ao recurso "https://api.github.com/users/tuliolucas", metodo GET, podemos perceber o conceito de endereçamento, que significa que foi disponibilizado um endereço que representa somente este recurso.
+Já pela URL de acesso ao recurso "https://api.github.com/users/tuliolucas", podemos perceber o conceito de endereçamento, que significa que foi disponibilizado um endereço que representa somente este recurso.
  
  ```
+ https://api.github.com/users/tuliolucas (GET)
 {
   "login": "tuliolucas",
   "id": 530063,
@@ -58,10 +59,9 @@ De acordo com a documentação os dados que podem ser alterados são: name, emai
 
 Este tipo de solicitação de alteração de um recurso ou exibição de informações sensíveis, a API utiliza o protocolo de autenticação OAuth2. Para nosso exemplo utilizaremos o OAuth2 com a utilização de TOKEN.
 
-    https://api.github.com/user?access_token=ed3231abe893f9c4a5c45642085722d456c62b95 (metodo PATCH)
+    https://api.github.com/user?access_token=ed3231abe893f9c4a5c45642085722d456c62b95 (PATCH)
     
-    Conteúdo:
-    
+    Conteúdo
 
     {
       "name":"Túlio Cruz"
