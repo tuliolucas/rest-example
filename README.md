@@ -1,17 +1,17 @@
 # rest-example
 
-Exemplo de consomo de um serviço REST, utilizando a API publica do Github.
+Exemplo de consumo de um serviço REST, utilizando a API publica do Github.
 
 Toda documentação relacionada a esta API pode ser encontrada em "https://developer.github.com/v3".
 
-Desta forma conseguiremos identificar os cinco princípios fundamentais são os seguintes:
+Desta forma conseguiremos identificar os princípios fundamentais do REST,  que são:
 
         - Dê a todas as coisas um identificador (addressability)
         - Vincule as coisas (connectedness)
         - Utilize métodos padronizados (uniform interface)
         - Comunique sem estado (statelessness)
 
-1) Para contextualizar, iremos fazer a requisição do recurso tuliolucas, que nada mais é do que meu usuário do Github e todas as informações a respeito.
+1) Para contextualizar, iremos fazer a requisição do recurso "tuliolucas", que representa um usuário no Github e todas as informações relacionadas.
 
 Já pela URL de acesso ao recurso "https://api.github.com/users/tuliolucas", podemos perceber o conceito de endereçamento, que significa que foi disponibilizado um endereço que representa somente este recurso.
  
@@ -50,9 +50,8 @@ Já pela URL de acesso ao recurso "https://api.github.com/users/tuliolucas", pod
   "updated_at": "2015-06-23T04:24:38Z"
 } 
 ```
-Lembrando que o principio de multiplas representações não pode ser apresentado nesta API, pois ela somente retorna o formato JSON.
+Lembrando que o princípio "multiplas representações" não pode ser apresentado para este serviço, pois neste somente é retornado sob o formato JSON.
 
-"...All API access is over HTTPS, and accessed from the api.github.com domain (or through yourdomain.com/api/v3/ for enterprise). All data is sent and received as JSON..."
 
 2) O segundo exemplo iremos atualizar informações relacionadas ao recurso, tuliolucas. 
 
