@@ -7,7 +7,6 @@ Desta forma conseguiremos identificar os cinco princípios fundamentais são os 
         - Dê a todas as coisas um Identificador (addressability)
         - Vincule as coisas (connectedness)
         - Utilize métodos padronizados (uniform interface)
-        - Recursos com múltiplas representações (multiple representations)
         - Comunique sem estado (statelessness)
 
 1) Para contextualizar, iremos fazer a requisição do recurso tuliolucas, que nada mais é do que meu usuário do Github e todas as informações a respeito.
