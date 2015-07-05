@@ -1,10 +1,12 @@
 # rest-example
 
-Exemplo de funcionamento de como se consome um serviço REST, utilizando a API publica do Github e toda documentação relacionada a esta API pode ser encontrada em "https://developer.github.com/v3".
+Exemplo de consomo de um serviço REST, utilizando a API publica do Github.
+
+Toda documentação relacionada a esta API pode ser encontrada em "https://developer.github.com/v3".
 
 Desta forma conseguiremos identificar os cinco princípios fundamentais são os seguintes:
 
-        - Dê a todas as coisas um Identificador (addressability)
+        - Dê a todas as coisas um identificador (addressability)
         - Vincule as coisas (connectedness)
         - Utilize métodos padronizados (uniform interface)
         - Comunique sem estado (statelessness)
