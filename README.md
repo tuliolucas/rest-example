@@ -57,7 +57,7 @@ Lembrando que o princípio "multiplas representações" não pode ser apresentad
 
 De acordo com a documentação os dados que podem ser alterados são: name, email, blog, company, location, hireable e bio.
 
-Este tipo de solicitação de alteração de um recurso ou exibição de informações sensíveis, a API utiliza o protocolo de autenticação OAuth2. Para nosso exemplo utilizaremos o OAuth2 com a utilização de TOKEN.
+Este tipo de solicitação de alteração de um recurso ou exibição de informações sensíveis, a API utiliza o protocolo de autenticação OAuth2. Para nosso exemplo utilizaremos o OAuth2 com a utilização de TOKEN, https://github.com/settings/tokens.
 
     https://api.github.com/user?access_token=ed3231abe893f9c4a5c45642085722d456c62b95 (PATCH)
     
