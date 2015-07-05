@@ -55,7 +55,15 @@ Lembrando que o princípio "multiplas representações" não pode ser apresentad
 
 2) O segundo exemplo iremos atualizar informações relacionadas ao recurso, tuliolucas. 
 
-De acordo com a documentação os dados que podem ser alterados são: name, email, blog, company, location, hireable (available for hire) e bio.
+De acordo com a documentação os dados, do recurso usuário, que podem ser alterados são: 
+
+        - name 
+        - email 
+        - blog 
+        - company 
+        - location 
+        - hireable (available for hire)
+        - bio.
 
 Este tipo de solicitação de alteração de um recurso ou exibição de informações sensíveis, a API utiliza o protocolo de autenticação OAuth2. Para nosso exemplo utilizaremos o OAuth2 com a utilização de TOKEN, https://github.com/settings/tokens.
 
