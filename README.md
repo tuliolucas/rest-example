@@ -50,8 +50,6 @@ Já pela URL de acesso ao recurso "https://api.github.com/users/tuliolucas", pod
   "updated_at": "2015-06-23T04:24:38Z"
 } 
 ```
-Lembrando que o princípio "multiplas representações" não pode ser apresentado para este serviço, pois neste somente é retornado sob o formato JSON.
-
 
 2) O segundo exemplo iremos atualizar informações relacionadas ao recurso, tuliolucas. 
 
